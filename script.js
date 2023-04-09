@@ -7,6 +7,7 @@ const pResult = document.querySelector ('#result');
 
 form.addEventListener('submit', sumarInputValues )
 
+
 function sumarInputValues(event) {
     console.log({event});
     event.preventDefault();
